@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00119CE71875689E00DD2BE1 /* car2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00119CE61875689E00DD2BE1 /* car2.png */; };
+		00119CE9187568A400DD2BE1 /* car3.png in Resources */ = {isa = PBXBuildFile; fileRef = 00119CE8187568A400DD2BE1 /* car3.png */; };
 		00AB94B01875625C00E98EBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AB94AF1875625C00E98EBD /* Foundation.framework */; };
 		00AB94B21875625C00E98EBD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AB94B11875625C00E98EBD /* CoreGraphics.framework */; };
 		00AB94B41875625C00E98EBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AB94B31875625C00E98EBD /* UIKit.framework */; };
@@ -21,6 +23,7 @@
 		00AB94D11875625C00E98EBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AB94B31875625C00E98EBD /* UIKit.framework */; };
 		00AB94D91875625C00E98EBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00AB94D71875625C00E98EBD /* InfoPlist.strings */; };
 		00AB94DB1875625C00E98EBD /* CarGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AB94DA1875625C00E98EBD /* CarGalleryTests.m */; };
+		00AB94E5187562D000E98EBD /* car1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00AB94E4187562D000E98EBD /* car1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00119CE61875689E00DD2BE1 /* car2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car2.png; sourceTree = "<group>"; };
+		00119CE8187568A400DD2BE1 /* car3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car3.png; sourceTree = "<group>"; };
 		00AB94AC1875625C00E98EBD /* CarGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00AB94AF1875625C00E98EBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00AB94B11875625C00E98EBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,7 @@
 		00AB94D61875625C00E98EBD /* CarGalleryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarGalleryTests-Info.plist"; sourceTree = "<group>"; };
 		00AB94D81875625C00E98EBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00AB94DA1875625C00E98EBD /* CarGalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarGalleryTests.m; sourceTree = "<group>"; };
+		00AB94E4187562D000E98EBD /* car1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		00AB94B51875625C00E98EBD /* CarGallery */ = {
 			isa = PBXGroup;
 			children = (
+				00AB94E4187562D000E98EBD /* car1.png */,
+				00119CE61875689E00DD2BE1 /* car2.png */,
+				00119CE8187568A400DD2BE1 /* car3.png */,
 				00AB94BE1875625C00E98EBD /* AppDelegate.h */,
 				00AB94BF1875625C00E98EBD /* AppDelegate.m */,
 				00AB94C11875625C00E98EBD /* Main.storyboard */,
@@ -228,8 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AB94E5187562D000E98EBD /* car1.png in Resources */,
+				00119CE71875689E00DD2BE1 /* car2.png in Resources */,
 				00AB94C81875625C00E98EBD /* Images.xcassets in Resources */,
 				00AB94BA1875625C00E98EBD /* InfoPlist.strings in Resources */,
+				00119CE9187568A400DD2BE1 /* car3.png in Resources */,
 				00AB94C31875625C00E98EBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +472,7 @@
 				00AB94E01875625C00E98EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00AB94E11875625C00E98EBD /* Build configuration list for PBXNativeTarget "CarGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				00AB94E31875625C00E98EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
